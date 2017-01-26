@@ -1,0 +1,28 @@
+{
+  "name": "nir-generator",
+  "version": "0.1.0",
+  "description": "Generate a random NIR number (French National ID)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YoannMa/nir-generator.git"
+  },
+  "keywords": [
+    "nir",
+    "generator",
+    "random",
+    "fake"
+  ],
+  "author": "yoannma",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YoannMa/nir-generator/issues"
+  },
+  "homepage": "https://github.com/YoannMa/nir-generator#readme",
+  "dependencies": {
+    "lodash": "latest"
+  }
+}
