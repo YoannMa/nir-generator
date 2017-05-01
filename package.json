@@ -4,7 +4,7 @@
   "description": "Generate a random NIR number (French National ID)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ava"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,12 @@
   },
   "homepage": "https://github.com/YoannMa/nir-generator#readme",
   "dependencies": {
-    "lodash": "latest"
+    "lodash.random": "^3.2.0",
+    "lodash.range": "^3.2.0",
+    "lodash.sample": "^4.2.1",
+    "lodash.union": "^4.6.0"
+  },
+  "devDependencies": {
+    "ava": "^0.19.1"
   }
 }
